@@ -229,13 +229,13 @@ goto :end
 @echo .
 @echo Syntax: tbldevcmd.bat [options]
 @echo [options] :
-@echo     TODO
-goto comment
 @echo     -arch=architecture : Architecture for compiled binaries/libraries
 @echo            * x86 [default]
 @echo            * amd64
 @echo            * arm
 @echo            * arm64
+@echo TODO: Add more options
+goto comment
 @echo     -host_arch=architecture : Architecture of compiler binaries
 @echo            * x86 [default]
 @echo            * amd64
